@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "title": "Dark",
+    "settings": {
+      "color": {
+        "defaultPalette": false,
+        "customDuotone": true,
+        "defaultDuotone": true,
+        "palette": [
+            {
+                "color": "#0b8276",
+                "name": "Primary",
+                "slug": "primary"
+            },
+            {
+                "color": "#fbc02d",
+                "name": "Secondary",
+                "slug": "secondary"
+            },
+            {
+                "color": "#181818",
+                "name": "Tertiary",
+                "slug": "tertiary"
+            },
+            {
+                "color": "#262626",
+                "name": "Base",
+                "slug": "base"
+            },
+            {
+                "color": "#fff",
+                "name": "Links",
+                "slug": "custom-links"
+            },
+            {
+                "color": "#fff",
+                "name": "Text",
+                "slug": "text-primary"
+            },
+            {
+                "color": "var(--wp--preset--color--tertiary)",
+                "name": "Background",
+                "slug": "background-primary"
+            },
+            {
+                "color": "#262626",
+                "name": "Footer",
+                "slug": "footer"
+            },
+            {
+                "name": "Header Image overlay",
+                "color": "#000000",
+                "slug": "header-image-overlay"
+            }
+        ],
+        "duotone": [
+            {
+              "name": "Primary",
+              "slug": "primary",
+              "colors": [
+                "#000000",
+                "#ffffff"
+              ]
+            }
+        ]
+      },
+      "custom": {
+        "variation": "dark"
+      }
+    },
+    "styles": {
+      "blocks": {
+        "core/image": {
+          "filter": {
+            "duotone": "var(--wp--preset--duotone--midnight)"
+          }
+        },
+        "core/post-featured-image": {
+          "filter": {
+            "duotone": "var(--wp--preset--duotone--midnight)"
+          }
+        },
+        "core/cover": {
+          "filter": {
+            "duotone": "var(--wp--preset--duotone--midnight)"
+          }
+        }
+      },
+      "elements": {
+        "button": {
+          "color": {
+            "background": "var(--wp--preset--color--tertiary)"
+          },
+          "border": {
+            "width": "1px",
+            "radius": "4px"
+          }
+        }
+      }
+    }
+  }

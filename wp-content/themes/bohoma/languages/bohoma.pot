@@ -1,0 +1,309 @@
+# <!=Copyright (C) 2023 Nordic WP Theme
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bohoma\n"
+"Report-Msgid-Bugs-To: https://www.nordicwptheme.com/contact/\n"
+"POT-Creation-Date: 2024-02-26 16:45+0545\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nordic WP Theme <info@nordicwptheme.com>\n"
+"Language-Team: Nordic WP Theme <info@nordicwptheme.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:29 inc/block-patterns.php:18
+#: patterns/footer-four-columns-default.php:17
+msgid "Bohoma"
+msgstr ""
+
+#: inc/about.php:48
+msgid "By Nordic WP Theme"
+msgstr ""
+
+#: inc/about.php:56
+msgid "Welcome to the Bohoma - Premium WordPress Themes"
+msgstr ""
+
+#: inc/about.php:57
+msgid ""
+"Bohoma Store, fashion Shop and responsive multipurpose Theme. Bohoma Store is a stylish and modern WordPress"
+"theme with an integrated WooCommerce system. The theme is a perfect solution for customers willing to start online"
+"fashion shop. Flexible & modern design make it easy to manage the user interface of the website easily"
+"without any programming skills and for readers to focus on your content. You can create your own type of design as"
+"you like but we have provided One-click demo sample that can be obtained using Elementor. Perfect for any other types of"
+"amazing industry. This beautiful and clean code theme is compatible with the latest version of WordPress."
+msgstr ""
+
+#: inc/about.php:58
+msgid "Theme documentation"
+msgstr ""
+
+#: inc/about.php:64
+msgid "Premium Features - Bohoma Pro"
+msgstr ""
+
+#: inc/about.php:65
+msgid ""
+"Including all free features, Bohoma Pro comes with 40+ advanced blocks that enhance & power"
+"up the e-commerce website. By seamlessly integrating these blocks with our ready Demo, you have the flexibility"
+" to create a wide selection of captivating online store."
+msgstr ""
+
+#: inc/about.php:66
+msgid "Upgrade Bohoma Pro"
+msgstr ""
+
+#: inc/about.php:75
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:77
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/about.php:79
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:80
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:88
+msgid ""
+"Loved Bohoma Blocks? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:89
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header.php:17
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header.php:21
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/blog-header.php:17
+msgid "From The Blog"
+msgstr ""
+
+#: patterns/featured-content-default.php:16
+msgid "Latest News"
+msgstr ""
+
+#: patterns/featured-content-default.php:35
+msgid "Gift For Her"
+msgstr ""
+
+#: patterns/featured-content-default.php:38 patterns/featured-content-default.php:68
+#: patterns/featured-content-default.php:98
+msgid ""
+"Lorem ipsum dolor sit amet consecte tur adipiscing elit integer fermentum in orci "
+"lorem ipsum."
+msgstr ""
+
+#: patterns/featured-content-default.php:44 patterns/featured-content-default.php:74
+#: patterns/featured-content-default.php:104 patterns/services-default.php:66
+#: patterns/services-default.php:94 patterns/services-default.php:121
+msgid "Read More"
+msgstr ""
+
+#: patterns/featured-content-default.php:65
+msgid "Full Site Editing"
+msgstr ""
+
+#: patterns/featured-content-default.php:95
+msgid "Special Offer"
+msgstr ""
+
+#: patterns/footer-default.php:17
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: patterns/footer-default.php:18 patterns/footer.php:39
+msgid "Y"
+msgstr ""
+
+#: patterns/footer-four-columns-default.php:21
+msgid ""
+"Bohoma is a free clean and modern art and photography WordPress block theme. "
+"This block-based theme suits photographers, artists, photo studios, creative "
+"professionals, and agencies."
+msgstr ""
+
+#: patterns/footer-four-columns-default.php:31
+msgid "Contact us"
+msgstr ""
+
+#: patterns/footer-four-columns-default.php:43
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-four-columns-default.php:55
+msgid "Social"
+msgstr ""
+
+#: patterns/footer.php:39
+#, php-format
+msgid ". Powered by %s"
+msgstr ""
+
+#: patterns/footer.php:40
+msgid "https://www.nordicwptheme.com"
+msgstr ""
+
+#: patterns/footer.php:40
+msgid "Nordic WP Theme"
+msgstr ""
+
+#: patterns/header-media.php:17
+msgid "Be Stylish"
+msgstr ""
+
+#: patterns/header-media.php:21
+msgid "Be Bohoma!"
+msgstr ""
+
+#: patterns/header-media.php:25
+msgid ""
+"Vestibulum velit nulla, feugiat et vehicula sed, dictum quis erat. Nullam non feugiat risus."
+msgstr ""
+
+#: patterns/header-media.php:30
+msgid "Explore Products"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgid "Oops! That page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-blog.php:11
+msgid "Recent Blog"
+msgstr ""
+
+#: patterns/hidden-search.php:11
+msgid "Search"
+msgstr ""
+
+#: patterns/services-default.php:14
+msgid "Shop By Categories"
+msgstr ""
+
+#: patterns/services-default.php:15
+msgid "Searching for products is easier"
+msgstr ""
+
+#: patterns/services-default.php:35
+msgid "Top"
+msgstr ""
+
+#: patterns/services-default.php:58
+msgid "Short"
+msgstr ""
+
+#: patterns/services-default.php:38
+msgid "read More"
+msgstr ""
+
+#: patterns/services-default.php:81
+msgid "Overall"
+msgstr ""
+
+#: patterns/services-default.php:103
+msgid "Dress"
+msgstr ""
+
+
+#: patterns/services-default.php:125
+msgid "Coat"
+msgstr ""
+
+#: patterns/shop-header.php:17
+msgid "The Shop"
+msgstr ""
+
+#: patterns/sidebar-products.php:14
+msgid "Search Products"
+msgstr ""
+
+#: patterns/sidebar-products.php:24 patterns/sidebar.php:99
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar-products.php:34
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/sidebar-products.php:50
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/sidebar-products.php:66
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/sidebar.php:17
+msgid "Latest post"
+msgstr ""
+
+#: patterns/sidebar.php:26
+msgid "Gallery"
+msgstr ""
+
+#: patterns/sidebar.php:72
+msgid "Tag cloud"
+msgstr ""
+
+#: patterns/sidebar.php:81
+msgid "Social-Media"
+msgstr ""

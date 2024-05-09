@@ -1,0 +1,16 @@
+/*post date*/
+.wp-block-post-date::before{
+  content: "\f508";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.post-author-name.wp-block-post-author-name::before{
+  content: "\f110";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}

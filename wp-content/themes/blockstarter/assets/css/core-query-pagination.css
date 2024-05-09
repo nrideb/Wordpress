@@ -1,0 +1,27 @@
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers, 
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers:hover, 
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers.current {
+	display: inline-block;
+	background-color: var(--wp--preset--color--base);
+	width: 42px;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-right: 2px;
+	margin-bottom: 5px;
+	font-size: var(--wp--preset--font-size--x-small);
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers:hover,
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers.current {
+	background-color: var(--wp--preset--color--primary);
+	color: #fff;
+}
+
+.variation-dark .is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers:hover,
+.variation-dark .is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers.current {
+	filter: var(--wp--preset--duotone--midnight);
+}

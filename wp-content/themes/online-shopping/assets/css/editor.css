@@ -1,0 +1,82 @@
+/*post date*/
+.wp-block-post-date::before{
+  content: "\f508";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.post-author-name.wp-block-post-author-name::before{
+  content: "\f110";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.blog-text{
+    margin: 0 25px;
+    position: relative;
+    bottom: 40px;
+}
+
+.wp-block-search__button svg{
+  transform: rotate(270deg);
+}
+
+.wp-block-search__button svg {
+    fill: currentColor;
+    min-height: 30px;
+    min-width: 38px;
+    vertical-align: text-bottom;
+}
+.wp-block-search__button {
+  padding-left: 0px;
+    padding-right: 0px;
+}
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.online-shopping-latest-blog-section .wp-block-post-title a {
+  text-decoration: none;
+}
+
+.woocommerce-checkout.woocommerce-page .wc-booster-multistep-checkout-wrapper article.page>div.wc-booster-multistep-checkout-navigation button,
+.woocommerce-cart-form button,
+.wc-booster-place-order-wrapper button,
+.woocommerce div.product form.cart .button,
+.woocommerce form.cart .button,
+.wc-proceed-to-checkout a,
+.single .wp-block-search__button,
+.form-submit .wp-block-button__link,
+#review_form_wrapper .form-submit .wp-element-button,
+.wc-block-components-checkout-place-order-button,
+.wp-block-cart-cross-sells-product__product-add-to-cart .wc-block-components-product-button__button,
+.wp-block-woocommerce-proceed-to-checkout-block .wc-block-cart__submit-button,
+.wc-block-editor-add-to-cart-form-container .single_add_to_cart_button,
+.wp-block-search__inside-wrapper .wp-block-search__button,
+.wc-block-checkout__actions .wc-block-checkout__actions_row .wc-block-cart__submit-button {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--base);
+}
+
+
+.wp-block-search__button.has-icon.wp-element-button {
+  padding: 0px;
+  color: var(--wp--preset--color--primary);
+  background-color: var(--wp--preset--color--base);
+}
+
+.wp-block-search__inside-wrapper {
+  justify-content: center;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    padding: 15px 15px;
+}

@@ -1,0 +1,248 @@
+/*
+Theme Name: Online Shopping
+Theme URI:
+Author: Eagle Vision IT
+Author URI: https://www.eaglevisionit.com
+Description: Introducing our new theme : the 'Online Shopping' child theme for Woo Booster Theme!  Elevate your online shopping experience with this sleek and modern theme, designed to enhance user engagement and drive sales. With its clean design and user-friendly interface, this theme is perfect for showcasing your products and services in style. Get ready to take your online store to the next level with our 'Online Shopping' child theme! Check out the real demo : https://demos.eaglevisionit.com/online-shopping
+https://demos.eaglevisionit.com/online-shopping/
+Template: woo-booster
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: online-shopping
+Tags: editor-style, blog, custom-background, custom-logo, custom-menu, e-commerce, featured-images, footer-widgets, left-sidebar, one-column, right-sidebar, full-site-editing, threaded-comments, translation-ready, two-columns, wide-blocks, full-width-template, sticky-post, block-styles, block-patterns
+*/
+
+.mc4wp-form-fields input::placeholder,
+.mc4wp-form-fields input[type="submit"]{
+  color: var(--wp--preset--color--primary) !important;
+}
+
+.home .blog-text{
+    margin: 0 25px;
+    position: relative;
+    bottom: 40px;
+}
+
+form.mc4wp-form{
+	    margin: 0 80px !important;
+}
+
+.wp-block-search__button.has-icon.wp-element-button {
+    padding: 0px;
+    background: #fff;
+}
+
+@media screen and (max-width: 888px) {
+   form.mc4wp-form{
+	    margin: unset !important;
+ }
+}
+
+.mc4wp-form input[type="submit"] {
+    background: black;
+	width: 100% !important;
+	color: white !important;
+	font-size: 25px;
+	padding: 20px 0px;
+}
+
+.mc4wp-form input[type="email"] {
+    text-align: center;
+    border: 1px solid var(--wp--preset--color--secondary-bg);
+    background: var(--wp--preset--color--secondary-bg);
+	font-size: 20px;
+	width: 100% !important;
+}
+
+.mc4wp-form input[type="email"]::placeholder {
+	font-size: 20px;
+	color: #7676769c !important;
+}
+
+.search-icon{
+	transform: rotate(270deg);
+}
+
+.wp-block-search__button svg {
+    fill: currentColor;
+    min-height: 30px;
+    min-width: 38px;
+    vertical-align: text-bottom;
+}
+.single .wp-block-search__button {
+	padding-left: 30px;
+    padding-right: 30px;
+}
+
+.online-shopping-latest-blog-section .wp-block-post-title a {
+	text-decoration: none;
+}
+
+.woocommerce .product .quantity .qty {
+	width: 67px;
+	padding: 13px;
+}
+
+.online-shopping.woocommerce table.shop_table table.shop_table {
+  border: 1px solid var(--wp--preset--color--table-line) !important;
+}
+.online-shopping .woocommerce table.shop_table td,
+.online-shopping .woocommerce table.shop_table th {
+  border-top: 1px solid var(--wp--preset--color--table-line);
+}
+.online-shopping .wc-block-order-confirmation-totals table td,
+.online-shopping .wc-block-order-confirmation-totals table th {
+  border-color: var(--wp--preset--color--table-line);
+}
+.online-shopping .wc-block-order-confirmation-totals table,
+.wc-block-order-confirmation-billing-address {
+  border: 1px solid var(--wp--preset--color--table-line);
+}
+.woocommerce table.shop_table {
+  border: 1px solid var(--wp--preset--color--table-line) !important;
+}
+
+.woocommerce-checkout .is-large.wc-block-cart .wc-block-cart-items {
+  border-bottom: 1px solid var(--wp--preset--color--table-line);
+}
+
+.woocommerce-checkout .is-large.wc-block-cart .wc-block-cart-items td {
+  border-top: 1px solid var(--wp--preset--color--table-line);
+}
+
+.woocommerce-checkout .wc-block-components-totals-wrapper {
+    border-top: 1px solid var(--wp--preset--color--table-line);
+}
+
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after {
+  border-left: 1px solid var(--wp--preset--color--table-line);
+}
+
+.woocommerce-checkout.woocommerce-page .wc-booster-multistep-checkout-wrapper article.page>div.wc-booster-multistep-checkout-navigation button,
+.woocommerce-cart-form button,
+.wc-booster-place-order-wrapper button,
+.woocommerce div.product form.cart .button,
+.woocommerce form.cart .button,
+.wc-proceed-to-checkout a,
+.site-sidebar .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button,
+.form-submit .wp-block-button__link,
+#review_form_wrapper .form-submit .wp-element-button,
+.wc-block-components-checkout-place-order-button,
+.woocommerce-form-login__submit {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--base);
+}
+
+.woocommerce form.cart .button {
+    padding: 6px 17px;
+}
+
+.added_to_cart.wc_forward {
+	color: var(--wp--preset--color--primary);
+	text-decoration: none;
+}
+
+.woocommerce-product-gallery__trigger {
+	position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    font-size: 2em;
+    z-index: 9;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    color: black;
+    text-indent: -9999px;
+    border-radius: 100%;
+    box-sizing: content-box;
+}
+.woocommerce .woocommerce-product-gallery__trigger::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    box-sizing: content-box;
+}
+
+.woocommerce .woocommerce-product-gallery__trigger::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #000;
+    border-radius: 6px;
+    position: absolute;
+    top: 19px;
+    left: 22px;
+    transform: rotate(-45deg);
+    box-sizing: content-box;
+}
+
+.site-footer a {
+	text-decoration: none;
+}
+
+.site-footer a:hover {
+	text-decoration: underline;
+}
+
+.single-product .wp-block-woocommerce-related-products .wc-block-components-product-button .wc-block-components-product-button__button
+{
+	font-size: 14px;
+}
+
+.footer-signup .mc4wp-form-fields{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-signup #mc4wp-form-2 .mc4wp-form-fields p {
+    margin: 0 !important;
+}
+
+.footer-signup #mc4wp-form-2 .mc4wp-form-fields p input[type="email"]::placeholder  {
+    font-size: 18px;
+    color: #b2b2b2ed !important;
+}
+
+.footer-signup #mc4wp-form-2 .mc4wp-form-fields p input[type="email"]  {
+    font-size: 20px !important;
+    padding: 8px;
+    border: 1px solid #615e5e;
+    background: #615e5eed;
+}
+
+.footer-signup #mc4wp-form-2 .mc4wp-form-fields p input[type="submit"]  {
+    padding: 10px !important;
+    border: 2px solid #cfc8c8;
+    font-size: 16px;
+}
+
+.footer-signup form#mc4wp-form-2 {
+    margin: 0px !important;
+}
+
+.wp-block-post.product {
+    background: unset;
+}
+
+.wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent {
+    margin-top: 0px;
+}

@@ -1,0 +1,104 @@
+.nwpt-slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.nwpt-slider-wrapper .swiper-button {
+  background: #f5f5f5;
+  border: 0;
+  color: #333;
+  cursor: pointer;
+  font-weight: var(--wp--custom--typography--font-weight--bold);
+  line-height: var(--wp--custom--typography--line-height--paragraph);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s ease;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nwpt-slider-wrapper .swiper-button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.nwpt-slider-wrapper .swiper-button-prev:after,
+.nwpt-slider-wrapper .swiper-button-next:after {
+  font-size: 22px;
+  font-size: 1.25rem;
+}
+
+.nwpt-slider-wrapper .swiper-button-prev {
+  left: -80px;
+}
+
+.nwpt-slider-wrapper .swiper-button-next {
+  right: -80px;
+}
+swiper-pagination-bullet {
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  background: #000;
+}
+@media screen and (min-width: 37.5625em) {
+  .nwpt-slider-wrapper:hover .swiper-button-next {
+	right: 30px;
+  }
+  .nwpt-slider-wrapper:hover .swiper-button-prev {
+	left: 30px;
+  }
+}
+
+.nwpt-slider-wrapper.vertical .wp-block-bohoma-slider,
+.swiper-wrapper.vertical {
+  height: 100vh;
+}
+
+[class*="vertical-"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	bottom: auto;
+	top: 50%;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+[class*="vertical-left-center"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	left: 30px;
+}
+
+[class*="vertical-right-center"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	right: 30px;
+	left: auto;
+}
+
+[class*="vertical-right-bottom"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	right: 30px;
+	left: auto;
+	bottom: 30px;
+	top: auto;
+}
+
+[class*="vertical-left-bottom"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	left: 30px;
+	bottom: 30px;
+	top: auto;
+}
+
+[class*="vertical-left-top"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	left: 30px;
+	top: 10%;
+}
+
+[class*="vertical-right-top"] .swiper-pagination-bullets.swiper-pagination-vertical {
+	right: 30px;
+	left: auto;
+	top: 10%;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+  right: auto;
+  left: 10px;
+}
